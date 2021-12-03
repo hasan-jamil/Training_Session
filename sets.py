@@ -10,10 +10,10 @@ print(y)
 
 #.add(), .remove(), .clear(), .len() functions
 x = {1, 2, 3, 2, "hello", True, (1, 2)}
-x.add(4)
-x.remove(2)
+x.add(4) # {1, 2, 3, 4, "hello", True, (1, 2)}
+x.remove(2) # {1, 3, 4, "hello", True, (1, 2)}
 x.clear()
-print(len(x))
+print(len(x)) # 0. Because the set is empty
 
 
 #in Operator
