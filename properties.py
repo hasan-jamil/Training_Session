@@ -51,7 +51,7 @@ class Time:         # property Example 1
 		print("run")
 		return self._second
 
-	@second.setter
+	@second.setter 
 	def second(self, second):
 		if second < 0 or second > 60:
 			raise ValueError("Invalid!")

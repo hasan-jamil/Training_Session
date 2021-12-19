@@ -1,9 +1,8 @@
 for i in range(-5, -20, -5):
 	print(i)
 
-
-#Looping through Tuple, List & string
-lst = [1, 2, 3, 4, 5, True, False]
+                       
+lst = [1, 2, 3, 4, 5, True, False]  # Looping through Tuple, List & string
 tup = (1, 2, 3, "hello", True)
 s = "my string"
 
@@ -12,28 +11,28 @@ for i in range(len(tup)):
 for item in lst:
 	print(item)
 
-# enumerate() function 
-for i, item in enumerate(s):
+
+for i, item in enumerate(s):   # enumerate() function 
 	print(i, item)
 
 
-#break Keyword
-x = [2, 3, 4 , 4, 5]
+
+x = [2, 3, 4 , 4, 5] # break Keyword
 for num in x:
 	if num == 4:
 		break
 	print(num)
 
 
-#continue Keyword
-for num in x:
+
+for num in x:     # continue Keyword
 	if num == 4:
 		continue
 	print(num)
 
 
-#Nested for Loops in Nested-List
-lst = [[1, 2], [3, 4], [5, 6]]
+
+lst = [[1, 2], [3, 4], [5, 6]]   # Nested for Loops in Nested-List
 
 for i in range(len(lst)):
 	interior_list = lst[i]
@@ -41,13 +40,12 @@ for i in range(len(lst)):
 		print(interior_list[j])
 
 
-# pass keyword
-for i in range(3):
+
+for i in range(3):   # pass keyword
 	pass
 
 
-#For-else statement
-words = ("hello", "name", "this", "is", "word")
+words = ("hello", "name", "this", "is", "word")    # For-else statement
 target = "name"
 
 for word in words:
